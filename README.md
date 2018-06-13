@@ -1,0 +1,1 @@
+Take home project using react and redux.
