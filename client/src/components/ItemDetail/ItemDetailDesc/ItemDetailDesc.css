@@ -1,0 +1,22 @@
+.ItemDetailDesc {
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  /* width: 700px; */
+}
+
+.ItemDetailDesc__content {
+  font-size: 130%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  .ItemDetailDesc__content {
+    font-size: 78%;
+  }
+} 
+
+@media screen and (max-width: 685px) {
+  .ItemDetailDesc {
+    margin: 10px;
+  }
+} 

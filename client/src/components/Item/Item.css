@@ -1,0 +1,18 @@
+.Item {
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  position: relative;
+  width: 270px;
+  height: 300px;
+}
+
+.Item__price {
+  bottom: 10px;
+  left: 20px;
+  margin: 0;
+  position: absolute;
+}

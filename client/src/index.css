@@ -1,5 +1,17 @@
+@import './normalizer.css';
+@import './containers/Layout/Layout.css';
+@import './containers/Browse/Browse.css';
+@import './containers/Items/Items.css';
+@import './components/Item/Item.css';
+@import './components/ItemDetail/ItemDetail.css';
+@import './components/ItemDetail/ItemDetailPic/ItemDetailPic.css';
+@import './components/ItemDetail/ItemDetailBuy/ItemDetailBuy.css';
+@import './components/ItemDetail/ItemDetailDesc/ItemDetailDesc.css';
+@import './components/ItemDetail/ItemDetailHeader/ItemDetailHeader.css';
+@import './components/ui/Favorite/Favorite.css';
+@import './components/ui/Button/Button.css';
+@import './components/ui/Spinner/Spinner.css';
+
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }

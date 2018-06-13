@@ -1,0 +1,25 @@
+.Layout {
+  background-color: #E4E1DE;
+  margin: 20px auto;
+  width: 1024px;
+}
+
+
+@media screen and (max-width: 1050px) {
+  .Layout {
+    width: 650px;
+  }
+} 
+
+@media screen and (max-width: 670px) {
+  .Layout {
+    width: 500px;
+  }
+} 
+
+
+@media screen and (max-width: 515px) {
+  .Layout {
+    width: 360px;
+  }
+} 

@@ -1,0 +1,27 @@
+.ItemDetail {
+  /* margin: 5px; */
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ItemDetail__wrapper {
+  width: 700px;
+}
+
+@media screen and (max-width: 685px) {
+  .ItemDetail {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ItemDetail__wrapper {
+    width: 500px;
+  }
+} 
+
+@media screen and (max-width: 515px) {
+  .ItemDetail__wrapper {
+    width: 360px;
+  }
+} 

@@ -1,0 +1,30 @@
+.ItemDetailPic {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  position: relative;
+  width: 250px;
+  height: 360px;
+}
+
+
+.ItemDetailPic img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .ItemDetailPic {
+    width: 290px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .ItemDetailPic {
+    margin: 10px 0;
+    width: 250px;
+    height: 360px;
+  }
+}
